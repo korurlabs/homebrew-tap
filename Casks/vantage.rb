@@ -16,8 +16,8 @@ cask "vantage" do
   # ---------------------------------------------------------------------------
   # BUMP THESE ON EACH RELEASE (the release workflow does this automatically)
   # ---------------------------------------------------------------------------
-  version "0.9.1"
-  sha256 "06449512d5763380e071c202d52504b16d9d5a6dbfe2713971cacaf8f19fce96"
+  version "0.10.0"
+  sha256 "9e5d0f8d550a0e476be38716a0d038337f9ca9065ddc198fb34cbe17fb6d606d"
 
   #           ^^^  run: shasum -a 256 Vantage-#{version}.zip
   # ---------------------------------------------------------------------------
@@ -39,7 +39,7 @@ cask "vantage" do
   end
 
   # Minimum macOS version matches the deployment target in project.yml.
-  depends_on macos: :ventura
+  depends_on macos: ">= :sonoma"
 
   # The zip contains Vantage.app at the top level — ditto preserves this layout.
   app "Vantage.app"
