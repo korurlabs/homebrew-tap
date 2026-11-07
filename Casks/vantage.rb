@@ -39,7 +39,7 @@ cask "vantage" do
   end
 
   # Minimum macOS version matches the deployment target in project.yml.
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   # The zip contains Vantage.app at the top level — ditto preserves this layout.
   app "Vantage.app"
