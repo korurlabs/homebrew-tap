@@ -1,11 +1,11 @@
 # Homebrew Cask for Vantage
 #
 # DISTRIBUTION: This cask is published to Sensey's existing tap,
-# senseylabs/homebrew-tap (the same tap that hosts the Kagi CLI formula).
+# korurlabs/homebrew-tap (the same tap that hosts the Kagi CLI formula).
 # A single tap hosts both Formula/ and Casks/ — this GUI .app lives under
 # Casks/. Users install it with:
-#   brew install --cask senseylabs/tap/vantage
-# (Homebrew expands "senseylabs/tap" -> "senseylabs/homebrew-tap" automatically.)
+#   brew install --cask korurlabs/tap/vantage
+# (Homebrew expands "korurlabs/tap" -> "korurlabs/homebrew-tap" automatically.)
 #
 # ON EACH RELEASE — the release workflow renders this file into the tap with:
 #   1. version  — bumped to the new semantic version
@@ -22,14 +22,14 @@ cask "vantage" do
   #           ^^^  run: shasum -a 256 Vantage-#{version}.zip
   # ---------------------------------------------------------------------------
 
-  # Binary release URL — hosted on the PUBLIC senseylabs/homebrew-tap repo so that
+  # Binary release URL — hosted on the PUBLIC korurlabs/homebrew-tap repo so that
   # unauthenticated users can download it via `brew install --cask`.
-  # (Assets on the private senseylabs/vantage repo require auth and cannot be used.)
+  # (Assets on the private korurlabs/vantage repo require auth and cannot be used.)
   # #{version} is substituted automatically by Homebrew at install time.
-  url "https://github.com/senseylabs/homebrew-tap/releases/download/v#{version}/Vantage-#{version}.zip"
+  url "https://github.com/korurlabs/homebrew-tap/releases/download/v#{version}/Vantage-#{version}.zip"
   name "Vantage"
   desc "Window switcher with Accessibility-powered app cycling (cmd+tab override)"
-  homepage "https://github.com/senseylabs/vantage"
+  homepage "https://github.com/korurlabs/vantage"
 
   # Livecheck — Homebrew uses this to detect new releases automatically
   # (useful even for personal taps if you run `brew livecheck`).

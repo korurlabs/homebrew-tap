@@ -8,7 +8,7 @@
       <sparkle:version>29</sparkle:version>
       <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/senseylabs/homebrew-tap/releases/download/v0.12.0/Vantage-0.12.0.zip"
+      <enclosure url="https://github.com/korurlabs/homebrew-tap/releases/download/v0.12.0/Vantage-0.12.0.zip"
                  type="application/octet-stream" sparkle:edSignature="Lcff0v/xP9rSCUCj6KQ+aswQknDiIUe0m8jvJ8ulfyMPQPpsWn0x+lEkxr9qsOwV37MF9GSf7IVBO1hJFU/CBg==" length="7440348" />
     </item>
   </channel>
