@@ -3,13 +3,13 @@
   <channel>
     <title>Vantage</title>
     <item>
-      <title>Vantage 0.10.2</title>
-      <pubDate>Sat, 07 Nov 2026 23:18:41 +0000</pubDate>
-      <sparkle:version>25</sparkle:version>
-      <sparkle:shortVersionString>0.10.2</sparkle:shortVersionString>
+      <title>Vantage 0.10.3</title>
+      <pubDate>Sun, 08 Nov 2026 08:21:21 +0000</pubDate>
+      <sparkle:version>26</sparkle:version>
+      <sparkle:shortVersionString>0.10.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/senseylabs/homebrew-tap/releases/download/v0.10.2/Vantage-0.10.2.zip"
-                 type="application/octet-stream" sparkle:edSignature="OMaPg2lUGbwZ+nX4gH6wBLoTyY/RWrzMNs1IudmdK/DWPen7YF21eZgwBwWYu8c0xEXb7yHqYBuT/GZN6uT+BQ==" length="7067405" />
+      <enclosure url="https://github.com/senseylabs/homebrew-tap/releases/download/v0.10.3/Vantage-0.10.3.zip"
+                 type="application/octet-stream" sparkle:edSignature="pw9C+TGCQh2BNuT5fUGRTAV+35AFsBnUZ8GdMcFyOQSuZc+SolqmA+pSQjPiZhC0HBra/KFgVu2mTxnuZarqDA==" length="7067659" />
     </item>
   </channel>
 </rss>
