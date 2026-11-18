@@ -5,21 +5,21 @@
 class ObaCli < Formula
   desc "Oba CLI: the Oba apps from your terminal"
   homepage "https://github.com/korurlabs/oba-cli"
-  version "0.1.0"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.1.0/oba-cli_0.1.0_darwin_amd64.tar.gz"
-      sha256 "cd37ea88a1267d3f5eae29a0005d2300e9ee38f69d63130adaa1f461b022490c"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.2.0/oba-cli_0.2.0_darwin_amd64.tar.gz"
+      sha256 "d7ad156738514aaaed10d59a923910651d938768ebf83f8a152851199acc2c2e"
 
       define_method(:install) do
         bin.install "oba"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.1.0/oba-cli_0.1.0_darwin_arm64.tar.gz"
-      sha256 "d5bba07272d46c16bc3d33458425bf08ec248ca1ad6ff6343e1cdac2c407d478"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.2.0/oba-cli_0.2.0_darwin_arm64.tar.gz"
+      sha256 "efeb36fe205cc965c73f3e313b497e7ac1787aa57e4c3563e7fb9a421597aa61"
 
       define_method(:install) do
         bin.install "oba"
@@ -29,15 +29,15 @@ class ObaCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.1.0/oba-cli_0.1.0_linux_amd64.tar.gz"
-      sha256 "c6b3c59ab76979294ae6086e74c8dbf0edeaf27d7bcd4719808abac6ebbf01ee"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.2.0/oba-cli_0.2.0_linux_amd64.tar.gz"
+      sha256 "54feef80cc023221567acce07f4155f17993cf070dd50cdca4a56da94978021f"
       define_method(:install) do
         bin.install "oba"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.1.0/oba-cli_0.1.0_linux_arm64.tar.gz"
-      sha256 "75ad73e449f67da762538e65ddf49fac27de3a1a6df0375974ea6241a52555d6"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.2.0/oba-cli_0.2.0_linux_arm64.tar.gz"
+      sha256 "14c9acefbb6562032356f3c3247672942f195ef68d85074a0293dcecd08bb9ee"
       define_method(:install) do
         bin.install "oba"
       end
