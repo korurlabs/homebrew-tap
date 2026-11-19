@@ -3,13 +3,13 @@
   <channel>
     <title>Vantage</title>
     <item>
-      <title>Vantage 0.15.1</title>
-      <pubDate>Sun, 15 Nov 2026 10:14:59 +0000</pubDate>
-      <sparkle:version>36</sparkle:version>
-      <sparkle:shortVersionString>0.15.1</sparkle:shortVersionString>
+      <title>Vantage 0.16.0</title>
+      <pubDate>Thu, 19 Nov 2026 14:37:51 +0000</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.16.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <enclosure url="https://github.com/korurlabs/homebrew-tap/releases/download/v0.15.1/Vantage-0.15.1.zip"
-                 type="application/octet-stream" sparkle:edSignature="xnDpeggv9k3Dfg6P78BQ3ad6QerCEGT7c3/HgSWFDXa1wGnvjxuApj8bda9kfS6saYAIxUToUHm8f6F8OJZbBg==" length="7907992" />
+      <enclosure url="https://github.com/korurlabs/homebrew-tap/releases/download/v0.16.0/Vantage-0.16.0.zip"
+                 type="application/octet-stream" sparkle:edSignature="hVKCGqzwvjBcxh7oRkxwillBQhieueSNPgfiMCSnvzu7gcrE0wL2B8uobXMtPkQ1NDzWXUa2Z+UK2ViD58SiDw==" length="8027174" />
     </item>
   </channel>
 </rss>
