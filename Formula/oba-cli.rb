@@ -5,13 +5,13 @@
 class ObaCli < Formula
   desc "Oba CLI: the Oba apps from your terminal, Kaya's signed agent config of Claude Code among them"
   homepage "https://github.com/korurlabs/oba-cli"
-  version "0.5.2"
+  version "0.5.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.2/oba-cli_0.5.2_darwin_amd64.tar.gz"
-      sha256 "c06a9aa32572f4cd9de8adbd634b551bdd0ee2ddb9f566efa37e547dc043f1f5"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.3/oba-cli_0.5.3_darwin_amd64.tar.gz"
+      sha256 "85a3d94d33cba949afcd17059d33ea2e0d6ce8cc6e80f3f0bdc2ee507087157e"
 
       define_method(:install) do
         bin.install "oba"
@@ -19,8 +19,8 @@ class ObaCli < Formula
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.2/oba-cli_0.5.2_darwin_arm64.tar.gz"
-      sha256 "d5bd514a6d71ed02aef6a4fa1aee549bd7ff0947702258be560d2ed8d008df66"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.3/oba-cli_0.5.3_darwin_arm64.tar.gz"
+      sha256 "40e56649d14823b716eda0d03c3b37d8c5ca7b53eecf36a8486976a1c546a35f"
 
       define_method(:install) do
         bin.install "oba"
@@ -31,16 +31,16 @@ class ObaCli < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.2/oba-cli_0.5.2_linux_amd64.tar.gz"
-      sha256 "0a1ebc0151fb681ec02e8bec687cf8ca04fa13dda1107b2130af2c0b5d359df9"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.3/oba-cli_0.5.3_linux_amd64.tar.gz"
+      sha256 "a742041f2d47cb438677143b2474eefbc62815dcad9cc43af1259a21e647eb2e"
       define_method(:install) do
         bin.install "oba"
         bin.install_symlink "oba" => "oba-kaya-launch"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.2/oba-cli_0.5.2_linux_arm64.tar.gz"
-      sha256 "e418efd370e8d611484c13cc02486ff739443feb5f630c1799a5e25e9e9ed062"
+      url "https://github.com/korurlabs/oba-cli/releases/download/v0.5.3/oba-cli_0.5.3_linux_arm64.tar.gz"
+      sha256 "122c2d9bd9b4804e2998e75ae57b37a43cfd15dd02b1d199490ce304be741088"
       define_method(:install) do
         bin.install "oba"
         bin.install_symlink "oba" => "oba-kaya-launch"
